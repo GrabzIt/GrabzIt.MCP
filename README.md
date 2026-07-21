@@ -39,21 +39,22 @@ The server requires the following environment variables to authenticate with the
 
 ## Tools
 
-* **`capture_screenshot`**
-  Captures a high-fidelity PNG or JPEG screenshot of a live URL or raw HTML string. Allows customization of browser viewport and simulated device environments.
-* **`generate_pdf`**
-  Converts a live URL or AI-generated HTML snippet directly into a properly formatted, print-ready PDF document.
-* **`generate_docx`**
-  Converts a live URL or HTML content into a Microsoft Word (DOCX) document for easy editing and sharing.
-* **`scrape_webpage`**
-  Extracts clean, structured data or raw HTML from target web pages, enabling the AI to bypass basic fetching limitations and perform deep data analysis.
+* **`grabzit_inspect_url`**
+  Captures a screenshot of a URL and returns it as an image that the AI can view directly in context. Supports full page captures, rendering delays for SPAs, element cropping via CSS selectors, and element stripping.
+* **`grabzit_scrape_html`**
+  Extracts fully-rendered HTML from a target URL after JavaScript execution completes. Supports custom rendering delays.
+* **`grabzit_convert_url`**
+  Converts a target URL to an image (`png`, `jpg`, `svg`, `tiff`), PDF, or DOCX document. Supports page orientation, paper sizing, element cropping/stripping, and rendering delays.
+* **`grabzit_convert_html`**
+  Converts raw HTML string content into an image (`png`, `jpg`, `svg`, `tiff`), PDF, or DOCX document. Supports page orientation, paper sizing, element cropping/stripping, and rendering delays.
 
 ## 📝 Usage Examples
 
 Once connected, you can ask your AI client prompts like:
-* *"Take a screenshot of https://news.ycombinator.com and summarize the top stories."*
-* *"Create an HTML invoice for 3 hours of web development, and use GrabzIt to generate a PDF copy."*
-* *"Scrape the main headings and links from example.com."*
+* *"Inspect https://news.ycombinator.com using GrabzIt and tell me what you see in the screenshot."*
+* *"Scrape the rendered HTML of https://example.com after waiting 2000ms for dynamic content to load."*
+* *"Convert https://example.com into an A4 PDF in landscape orientation using GrabzIt."*
+* *"Take this HTML string invoice and convert it into a downloadable DOCX document."*
 
 ## 📄 License
 
