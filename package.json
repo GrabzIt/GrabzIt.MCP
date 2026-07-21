@@ -2,14 +2,31 @@
   "name": "@grabzit/mcp-server",
   "version": "1.0.0",
   "type": "module",
+  "description": "Official GrabzIt Model Context Protocol (MCP) server for AI web scraping, screenshots, and PDF/DOCX generation.",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "grabzit",
+    "ai",
+    "agent",
+    "screenshot",
+    "pdf",
+    "web-scraping"
+  ],
+  "author": "GrabzIt",
+  "license": "ISC",
+  "homepage": "https://grabz.it/",
+  "bin": {
+    "grabzit-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "grabzit": "^3.5.7"

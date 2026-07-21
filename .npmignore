@@ -1,0 +1,5 @@
+# Ignore the src directory entirely (if all raw TS is in here)
+src/
+
+# Ignore all .ts files anywhere in the project
+*.ts

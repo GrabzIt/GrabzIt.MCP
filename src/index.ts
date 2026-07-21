@@ -83,7 +83,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             url: { type: "string", description: "The URL of the webpage to convert." },
             format: { 
               type: "string", 
-              enum: ["png","svg","jpg","tiff", "pdf", "docx", "html", "mp4"], 
+              enum: ["png","svg","jpg","tiff", "pdf", "docx"], 
               description: "Output format. Defaults to 'jpg'." 
             },
             delay: { 
@@ -105,7 +105,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             },
             pageSize: { 
               type: "string", 
-              enum: ["A4", "Letter", "Legal"], 
+              enum: ["A3", "A4", "A5", "A6", "B3", "B4", "B5", "B6", "Letter", "Legal"], 
               description: "Paper size for PDF/DOCX formats." 
             }
           },
@@ -121,7 +121,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             html: { type: "string", description: "The URL of the webpage to convert." },
             format: { 
               type: "string", 
-              enum: ["png","svg","jpg","tiff", "pdf", "docx", "html", "mp4"], 
+              enum: ["png","svg","jpg","tiff", "pdf", "docx"], 
               description: "Output format. Defaults to 'jpg'." 
             },
             delay: { 
@@ -143,7 +143,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             },
             pageSize: { 
               type: "string", 
-              enum: ["A4", "Letter", "Legal"], 
+              enum: ["A3", "A4", "A5", "A6", "B3", "B4", "B5", "B6", "Letter", "Legal"], 
               description: "Paper size for PDF/DOCX formats." 
             }
           },
