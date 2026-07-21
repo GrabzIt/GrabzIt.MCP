@@ -1,6 +1,7 @@
 {
   "name": "@grabzit/mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.GrabzIt/mcp-server",
   "type": "module",
   "description": "Official GrabzIt Model Context Protocol (MCP) server for AI web scraping, screenshots, and PDF/DOCX generation.",
   "keywords": [

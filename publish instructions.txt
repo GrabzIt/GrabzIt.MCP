@@ -1,0 +1,2 @@
+mcp-publisher login GitHub
+mcp-publisher publish .mcp/server.json
