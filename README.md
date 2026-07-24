@@ -6,7 +6,7 @@ The official Model Context Protocol (MCP) server for [GrabzIt](https://grabz.it/
 
 This server is published on npm and can be executed instantly without installation using `npx`. 
 
-You will need a GrabzIt Application Key and Secret, which you can get by creating an account at [grabz.it](https://grabz.it/api/).
+You will need a GrabzIt Application Key and Secret, which you can get by creating an account at [GrabzIt](https://grabz.it/api/).
 
 ### Configuration
 
