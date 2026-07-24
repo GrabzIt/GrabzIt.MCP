@@ -58,7 +58,7 @@ Once connected, you can ask your AI client prompts like:
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the ISC License.
 
 ## 🔒 Privacy Policy
 
