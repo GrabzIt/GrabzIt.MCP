@@ -59,3 +59,9 @@ Once connected, you can ask your AI client prompts like:
 ## 📄 License
 
 This project is open-source and available under the MIT License.
+
+## 🔒 Privacy Policy
+
+This MCP server acts as a secure bridge between your local AI environment and the GrabzIt API. 
+* Your `GRABZIT_APP_KEY` and `GRABZIT_APP_SECRET` remain stored locally on your machine.
+* Any URLs or HTML data processed through this server are governed by the official [GrabzIt Privacy Policy](https://grabz.it/legal/privacy-policy/).
