@@ -1,6 +1,6 @@
 # GrabzIt MCP Server
 
-The official Model Context Protocol (MCP) server for [GrabzIt](https://grabz.it). This server allows AI assistants (like Claude, Cursor, and Windsurf) to dynamically capture website screenshots, generate PDF and DOCX documents, and scrape web data directly within your AI environment.
+The official Model Context Protocol (MCP) server for [GrabzIt](https://grabz.it/). This server allows AI assistants (like Claude, Cursor, and Windsurf) to dynamically capture website screenshots, generate PDF and DOCX documents, and scrape web data directly within your AI environment.
 
 ## 🚀 Quick Start
 
